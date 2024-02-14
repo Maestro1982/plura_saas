@@ -1,5 +1,7 @@
 # SaaS Website Builder, Project Management And Dashboard
 
+License: Not for commercial purpose. Please contact @webprodigies on @instagram to purchase a license for the code.
+
 # Features in this application
 
 - 🤯 Multivendor B2B2B Saas

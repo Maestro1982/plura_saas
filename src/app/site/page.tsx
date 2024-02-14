@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <main>
@@ -9,7 +11,16 @@ export default function Home() {
             Plura
           </h1>
         </div>
-        <div className='flex justify-center items-center relative md:mt-[-70px]'></div>
+        <div className='flex justify-center items-center relative md:mt-[-70px]'>
+          <Image
+            src='/assets/preview.png'
+            alt='banner image'
+            height={1200}
+            width={1200}
+            className='rounded-tl-2xl rounded-tr-2xl border-2 border-muted'
+          />
+          <div className='absolute bottom-0 top-[50%] bg-gradient-to-t dark:from-background left-0 z-10'></div>
+        </div>
       </section>
     </main>
   );
